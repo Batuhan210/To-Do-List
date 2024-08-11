@@ -17,7 +17,7 @@ const TodoApp = () => {
 
     return (
         <div className="Todo">
-            <h1>to do list for skyrim</h1>
+            <h1>to do list</h1>
             <input
                 type="text"
                 value={todoInput}
