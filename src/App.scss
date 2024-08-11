@@ -1,0 +1,81 @@
+body{
+    background-image: linear-gradient(
+  90deg,
+  hsl(179deg 100% 20%) 0%,
+  hsl(174deg 100% 23%) 11%,
+  hsl(168deg 100% 27%) 22%,
+  hsl(160deg 82% 33%) 33%,
+  hsl(143deg 51% 44%) 44%,
+  hsl(119deg 41% 54%) 56%,
+  hsl(95deg 54% 54%) 67%,
+  hsl(78deg 65% 53%) 78%,
+  hsl(65deg 76% 51%) 89%,
+  hsl(55deg 100% 50%) 100%  
+    );
+}
+
+.Todo {
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin: 40px;
+    padding: 20px;
+  
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    font-family: 'Pacifico';
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #000000be;
+    }
+
+input {
+    width: 380px;
+    outline: none;
+    border-color: #000000;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+    border: 3px solid #9acd32;
+        }
+
+button {
+    background-image: linear-gradient(
+        90deg,
+        hsl(179deg 100% 20%) 0%,
+        hsl(174deg 100% 23%) 11%,
+        hsl(168deg 100% 27%) 22%,
+        hsl(160deg 82% 33%) 33%,
+        hsl(143deg 51% 44%) 44%,
+        hsl(119deg 41% 54%) 56%,
+        hsl(95deg 54% 54%) 67%,
+        hsl(78deg 65% 53%) 78%,
+        hsl(65deg 76% 51%) 89%,
+        hsl(55deg 100% 50%) 100%  
+    );
+     width: 200px;
+     margin: 15px;
+     padding: 5px;
+     border-radius: 10px;
+     cursor: pointer;
+     font-size: 1.1rem;
+     border: none;
+    }
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: 'Open Sans';    
+    text-transform: uppercase;
+    }
+}
